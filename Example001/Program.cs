@@ -60,7 +60,7 @@ Console.WriteLine(year);
 string Method4(int count, string c) //Что за новая переменная char? Почему её заменили на string?
 {
     int i = 0;
-    string result = string.Empty; //String.Emrty - пустая строка.
+    string result = string.Empty; //String.Empty - пустая строка.
     while (i < count)
     {
         result = result + c;
